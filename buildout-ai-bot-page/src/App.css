@@ -1,0 +1,9 @@
+.ai-card { position: relative; }
+.ai-actions {
+  position: absolute; right: 8px; top: 8px;
+  display: flex; gap: 6px;
+  opacity: 0; transition: opacity .15s ease;
+}
+.ai-card:hover .ai-actions { opacity: 1; }
+.ai-actions button { padding: 4px 8px; border: 1px solid #ccc; background: #fff; }
+.ai-actions button.active { border-color: #333; font-weight: 600; }
