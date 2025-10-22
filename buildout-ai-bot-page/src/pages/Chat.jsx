@@ -25,16 +25,43 @@ export default function Chat(){
     return idx;
   },[]);
 
-  function handleSubmit(e){
+ async function handleSubmit(e){
     e.preventDefault();
     if(finished) return;
 
+
     const userText = text.trim();
     if(!userText) return;
+    // Temporary test call to Python server
+try {
+  const res = await fetch("http://127.0.0.1:8000/test");
+  const data = await res.json();
+  console.log("From Python:", data);
+} catch (err) {
+  console.error("Backend error:", err);
+}
+
 
     const id = Date.now();
     const aiId = id + 1;
-    const ans = qaIndex[norm(userText)] || FALLBACK;
+    let ans = qaIndex[norm(userText)];
+    // let answe = qaData[userText];//
+
+if (!ans) {
+  try {
+    const res = await fetch("http://127.0.0.1:8000/classify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: userText }),
+    });
+    const data = await res.json();
+    ans = data.reply || "Sorry, Did not understand your query!";
+  } catch (err) {
+    console.error("AI backend error:", err);
+    ans = "Sorry, backend not responding.";
+  }
+}
+
 
     setMessages(prev => ([
       ...prev,

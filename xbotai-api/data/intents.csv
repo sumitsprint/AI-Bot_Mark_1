@@ -1,0 +1,85 @@
+text,intent
+hi,greeting
+hello,greeting
+hey there,greeting
+good morning,greeting
+hi there,greeting
+greetings,greeting
+hey,greeting
+yo,greeting
+howdy,greeting
+sup,greeting
+what is feed,about_feed
+explain feed simply,about_feed
+explain feed to me,about_feed
+can you explain feed,about_feed
+tell me about feed in detail,about_feed
+what does the term feed mean,about_feed
+give me details about feed,about_feed
+define feed,about_feed
+what is the meaning of feed,about_feed
+describe feed concept,about_feed
+feed explanation please,about_feed
+i want details about feed,about_feed
+feed basics,about_feed
+what is feed exactly,about_feed
+how does feed work,about_feed
+explain feed,about_feed
+tell me about feed,about_feed
+feed info please,about_feed
+can you describe feed,about_feed
+what does feed mean,about_feed
+i want to know about feed,about_feed
+feed definition,about_feed
+give me feed details,about_feed
+feed overview,about_feed
+what is restful api,about_restapi
+how does rest api work,about_restapi
+explain restful api,about_restapi
+rest api definition,about_restapi
+tell me about rest api,about_restapi
+rest api overview,about_restapi
+what's rest api,about_restapi
+restful api meaning,about_restapi
+how rest api functions,about_restapi
+rest api basics,about_restapi
+what's the weather,weather
+is it hot today,weather
+how's the weather,weather
+weather update please,weather
+is it raining,weather
+will it rain today,weather
+forecast for today,weather
+weather report,weather
+is it sunny,weather
+temperature today,weather
+how are you,smalltalk
+what's going on,smalltalk
+how's it going,smalltalk
+what's new,smalltalk
+what's happening,smalltalk
+how do you do,smalltalk
+how have you been,smalltalk
+how is it going,smalltalk
+how is everything,smalltalk
+how are things going,smalltalk
+how are things today,smalltalk
+how’s it going,smalltalk
+hows it going,smalltalk
+what’s up,smalltalk
+whats up,smalltalk
+how is your day,smalltalk
+how is everything going,smalltalk
+what's the latest,smalltalk
+how's life,smalltalk
+how are things,smalltalk
+how to bake bread,unknown
+train timings mumbai,unknown
+best smartphone 2025,unknown
+how to fix a bike,unknown
+nearest atm location,unknown
+who won the match yesterday,unknown
+how to invest in stocks,unknown
+cheap hotels in delhi,unknown
+download latest movie,unknown
+how to lose weight fast,unknown
