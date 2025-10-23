@@ -1,6 +1,9 @@
 [
-  {"id": 0, "question": "hey", "response": "hi sumit"
-     },
+  {
+    "id": 0,
+    "question": "hey",
+    "response": "hi sumit"
+  },
   {
     "id": 1,
     "question": "What's the difference between GET and POST requests?",

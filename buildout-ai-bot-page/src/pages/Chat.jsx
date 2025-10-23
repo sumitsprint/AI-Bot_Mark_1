@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import  { useState, useMemo, useRef, useEffect} from "react";
 import qa from "../data/stubQA.json";
 import EndFeedback from "../components/EndFeedback";
 import Message from "../components/Message";
@@ -15,7 +15,11 @@ export default function Chat(){
   const [rating, setRating] = useState(0);
   const [comment, setComment] = useState("");
   const navigate = useNavigate();
+const endRef = useRef(null);
 
+useEffect(() => {
+  endRef.current?.scrollIntoView({behavior: "smooth" , block: "end" });
+},[messages]);
   // Build fast lookup index from array
   const qaIndex = useMemo(()=>{
     const idx = {};
@@ -111,7 +115,8 @@ if (!ans) {
       <div className="card chat-window">
         {messages.length===0
           ? <p className="empty">Start chatting below.</p>
-          : messages.map(m => (
+          : <>
+          {messages.map(m => (
               <Message
                 key={m.id}
                 role={m.role}
@@ -123,6 +128,9 @@ if (!ans) {
               />
             ))
         }
+        <div ref={endRef} />
+        </>
+  }
       </div>
 
       <form className="form card" onSubmit={handleSubmit}>

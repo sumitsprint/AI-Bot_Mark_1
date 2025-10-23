@@ -36,16 +36,21 @@ pipe = Pipeline([
 pipe.fit(X_train, y_train)
 # z = pipe.named_steps["tfidf"].get_feature_names_out()
 
+# X = pipe.named_steps["tfidf"].transform(X_test)
+# print(X.toarray())
 
 # 5) Evaluate (quick sanity)
 pred = pipe.predict(X_test)
+
 acc = accuracy_score(y_test, pred)
 print(f"Model accuracy: {acc:.2f} on held-out test set")
 
 # 6) Save the whole pipeline (vectorizer + model together)
+
 OUT.parent.mkdir(parents=True, exist_ok=True)
 joblib.dump(pipe, OUT)
 print(f"Saved pipeline to: {OUT}")
+
 
 
 

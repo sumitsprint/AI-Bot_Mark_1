@@ -9,6 +9,21 @@ hey,greeting
 yo,greeting
 howdy,greeting
 sup,greeting
+hi buddy,greeting
+hello there,greeting
+hey friend,greeting
+good day,greeting
+hiya,greeting
+hey mate,greeting
+morning!,greeting
+yo there,greeting
+what’s good,greeting
+hey pal,greeting
+greetings friend,greeting
+hi friend,greeting
+hey yo,greeting
+hello again,greeting
+top of the morning,greeting
 what is feed,about_feed
 explain feed simply,about_feed
 explain feed to me,about_feed
@@ -33,6 +48,7 @@ i want to know about feed,about_feed
 feed definition,about_feed
 give me feed details,about_feed
 feed overview,about_feed
+feed concept explained,about_feed
 what is restful api,about_restapi
 how does rest api work,about_restapi
 explain restful api,about_restapi
@@ -43,6 +59,21 @@ what's rest api,about_restapi
 restful api meaning,about_restapi
 how rest api functions,about_restapi
 rest api basics,about_restapi
+what is a rest api exactly,about_restapi
+can you explain restful api simply,about_restapi
+rest api basics please,about_restapi
+describe rest api concept,about_restapi
+give me details about rest api,about_restapi
+what does rest api mean,about_restapi
+rest api explanation please,about_restapi
+i want to know about rest api,about_restapi
+rest api definition please,about_restapi
+explain rest api in detail,about_restapi
+tell me how rest api works,about_restapi
+rest api overview please,about_restapi
+what is the meaning of rest api,about_restapi
+rest api concept explained,about_restapi
+rest api info please,about_restapi
 what's the weather,weather
 is it hot today,weather
 how's the weather,weather
@@ -53,6 +84,21 @@ forecast for today,weather
 weather report,weather
 is it sunny,weather
 temperature today,weather
+what’s the weather like today,weather
+is it cold outside,weather
+weather forecast please,weather
+how’s the temperature,weather
+will it be sunny today,weather
+is it cloudy,weather
+today’s weather report,weather
+what’s the climate today,weather
+is it stormy,weather
+will it snow today,weather
+how hot is it,weather
+give me today’s forecast,weather
+is it humid today,weather
+what’s the weather condition,weather
+tell me the weather,weather
 how are you,smalltalk
 what's going on,smalltalk
 how's it going,smalltalk
@@ -73,6 +119,11 @@ how is everything going,smalltalk
 what's the latest,smalltalk
 how's life,smalltalk
 how are things,smalltalk
+how’s your day going,smalltalk
+what are you up to,smalltalk
+how’s everything with you,smalltalk
+how’s your mood,smalltalk
+how’s your morning,smalltalk
 how to bake bread,unknown
 train timings mumbai,unknown
 best smartphone 2025,unknown
@@ -83,3 +134,18 @@ how to invest in stocks,unknown
 cheap hotels in delhi,unknown
 download latest movie,unknown
 how to lose weight fast,unknown
+best restaurants nearby,unknown
+train schedule today,unknown
+how to cook pasta,unknown
+latest cricket score,unknown
+cheapest flights to delhi,unknown
+how to repair a laptop,unknown
+new movies this week,unknown
+how to earn money online,unknown
+best books to read,unknown
+how to learn guitar,unknown
+nearest petrol pump,unknown
+how to apply for passport,unknown
+best coding tutorials,unknown
+how to book train tickets,unknown
+how to get driving license,unknown
