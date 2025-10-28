@@ -17,6 +17,7 @@ export default function Chat(){
   const navigate = useNavigate();
 const endRef = useRef(null);
 
+
 useEffect(() => {
   endRef.current?.scrollIntoView({behavior: "smooth" , block: "end" });
 },[messages]);
